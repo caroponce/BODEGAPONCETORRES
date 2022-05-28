@@ -282,4 +282,11 @@ footer p {
     align-items: center;
 }
 
+.logo-redes:hover {
+    transform: scale(1.5);
+}
+.logo-redes {
+    transition: all 1.4s;
+
+}
 
