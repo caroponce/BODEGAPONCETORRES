@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./MULTIMEDIA/IMAGENES/ISOLOGO PONCE TORRES SIN FONDO.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>PRODUCTOS</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body class="body-gris">
@@ -38,7 +39,7 @@
     </section>
 
         <section class="grid-conteiner">
-            <div class="grid-item vino-izq"> <img src="MULTIMEDIA/IMAGENES/pergamino.png" alt=""> </div>
+            <div class="grid-item vino-izq"> <img data-aos="fade-right" src="MULTIMEDIA/IMAGENES/pergamino.png" alt=""> </div>
             <div class="grid-item texto-der">
                 <h2 class="titulo-vino"> PERGAMINO </h2>
                 <p class="detalle-descripcion"> Redondo, joven y buena tapicidad varietal </p>
@@ -67,8 +68,8 @@
     
     
             </div>
-            <div class="grid-item vino-derecha"> <img src="MULTIMEDIA/IMAGENES/malbec.png" alt=""> </div>
-            <div class="grid-item vino-izq"> <img src="MULTIMEDIA/IMAGENES/cabernet.png" alt=""></div>
+            <div class="grid-item vino-derecha"> <img data-aos="fade-left" src="MULTIMEDIA/IMAGENES/malbec.png" alt=""> </div>
+            <div class="grid-item vino-izq"> <img data-aos="fade-right" src="MULTIMEDIA/IMAGENES/cabernet.png" alt=""></div>
             <div class="grid-item texto-der"> <h3 class="titulo-vino"> PONCE TORRES CABERNET </h3>
                 <p class="detalle-descripcion"> Con cuerpo y frutas. Intensidad y buena capacidad de guarda </p>
                 <h3 class="texto-des">VARIETAL</h3>
@@ -90,8 +91,8 @@
                 <p class="texto-des texto"> Acompaña bien pastas rellenas, como ravioles o lasagna, o preparaciones al wok </p>
                 <h3 class="texto-des">TEMPERATURA</h3>
                 <p class="texto-des texto"> Se sirve entre 16º y 18º. </p></div>
-            <div class="grid-item vino-derecha"> <img src="MULTIMEDIA/IMAGENES/blend.png" alt=""></div>
-            <div class="grid-item vino-izq"> <img src="MULTIMEDIA/IMAGENES/astral.png" alt=""></div>
+            <div class="grid-item vino-derecha"> <img data-aos="fade-left" src="MULTIMEDIA/IMAGENES/blend.png" alt=""></div>
+            <div class="grid-item vino-izq"> <img data-aos="fade-right" src="MULTIMEDIA/IMAGENES/astral.png" alt=""></div>
             <div class="grid-item texto-der"> <h2 class="titulo-vino"> ASTRAL </h2>
                 <p class="detalle-descripcion"> Frutal, suave y buena espuma </p>
                 <h3 class="texto-des">VARIETAL</h3>
@@ -113,7 +114,7 @@
                 <p class="texto-des texto"> Excelente idea acompañarlo de frutas, quesos blancos y chocolates. </p>
                 <h3 class="texto-des">TEMPERATURA</h3>
                 <p class="texto-des texto"> Se sirve entre 8º y 10º. </p> </div>
-                <div class="grid-item vino-derecha"> <img src="MULTIMEDIA/IMAGENES/serpiente.png" alt=""></div>
+                <div class="grid-item vino-derecha"> <img data-aos="fade-left" src="MULTIMEDIA/IMAGENES/serpiente.png" alt=""></div>
     
         </section>
     
@@ -134,7 +135,10 @@
     </div>
 </footer>
 <!--fin footer-->
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
