@@ -198,17 +198,24 @@ header {
 .encabezado-premios {
     color: rgb(66, 61, 61);
     text-decoration-line: underline;
-    font-size: 50px;
+    font-size: 43px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
     margin-top: 110px;
 }
-.foto-premios {
+
+.texto-bodega {
+    font-size: 20px;
+    color: rgb(39, 37, 37);
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    background-image: url(./MULTIMEDIA/IMAGENES/copas.png);
+    justify-content: center;
+}
+
+.main-premios {
+    background-image: url(./MULTIMEDIA/IMAGENES/hojas.png);
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 /*FIN PREMIOS*/
 /*INICIO CONTACTOS*/
@@ -246,6 +253,7 @@ header {
     margin-bottom: 40px;
     
 }
+
 /*FIN CONTACTOS*/
 /*INICIO FOOTER*/
 footer {
