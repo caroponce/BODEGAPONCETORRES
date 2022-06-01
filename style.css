@@ -17,45 +17,25 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #80847693;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
     width: 100%;
     top: 0;   
-    z-index: 1;
-
+    z-index: 1; 
 }
-
-.menu-navegable {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
-    
+.nav-style {
+    background-color: #80847693;    
 }
-
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    
-}
-
 
 .link {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    margin: 55px;
-  
-
+    margin: 0 50px 0 50px;
 }
 
-
-.logo-menu {
+.foto-logo {
     height: 65px;
     width: 110px;
+    margin-left: 110px;
 }
 
 
@@ -218,17 +198,24 @@ header {
 .encabezado-premios {
     color: rgb(66, 61, 61);
     text-decoration-line: underline;
-    font-size: 50px;
+    font-size: 43px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
     margin-top: 110px;
 }
-.foto-premios {
+
+.texto-bodega {
+    font-size: 20px;
+    color: rgb(39, 37, 37);
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid black;
-    background-image: url(./MULTIMEDIA/IMAGENES/copas.png);
+    justify-content: center;
+}
+
+.main-premios {
+    background-image: url(./MULTIMEDIA/IMAGENES/hojas.png);
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 /*FIN PREMIOS*/
 /*INICIO CONTACTOS*/
@@ -266,6 +253,7 @@ header {
     margin-bottom: 40px;
     
 }
+
 /*FIN CONTACTOS*/
 /*INICIO FOOTER*/
 footer {
