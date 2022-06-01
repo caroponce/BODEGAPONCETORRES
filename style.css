@@ -17,45 +17,25 @@ body {
 
 /*HEADER*/
 header {
-    background-color: #80847693;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
     width: 100%;
     top: 0;   
-    z-index: 1;
-
+    z-index: 1; 
 }
-
-.menu-navegable {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    
-    
+.nav-style {
+    background-color: #80847693;    
 }
-
-
-.nav-bar {
-    display: flex;
-    align-items: center;
-    
-}
-
 
 .link {
     text-decoration: none;
     font-size: 20px;
     color: white;
-    margin: 55px;
-  
-
+    margin: 0 50px 0 50px;
 }
 
-
-.logo-menu {
+.foto-logo {
     height: 65px;
     width: 110px;
+    margin-left: 110px;
 }
 
 
