@@ -167,7 +167,11 @@ header {
     color: rgb(32, 28, 28);
 }
 
-
+.encabezado-premios {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
 
 
 /* FIN PRODCUTOS*/
@@ -195,7 +199,7 @@ header {
 }
 /*FIN HISTORIA*/
 /*INICIO PREMIOS*/
-.encabezado-premios {
+.encabezado-bodega {
     color: rgb(66, 61, 61);
     text-decoration-line: underline;
     font-size: 43px;
