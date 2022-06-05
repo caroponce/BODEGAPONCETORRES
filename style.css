@@ -416,10 +416,11 @@ header {
         height: 60%;              
     }
     
+}
+  
+@media screen and (max-width: 768px) {
     .texto-contacto {
-        font-size: 0.9rem;
-        
-        
+        font-size: 0.9rem;               
     }
 }
 /*FIN CONTACTOS*/
