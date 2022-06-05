@@ -317,7 +317,7 @@ header {
 }
 
 /*FIN HISTORIA*/
-/*INICIO PREMIOS*/
+/*INICIO BODEGA*/
 .encabezado-bodega {
     color: rgb(66, 61, 61);
     text-decoration-line: underline;
@@ -335,12 +335,27 @@ header {
     justify-content: center;
 }
 
-.main-premios {
+.main-bodega {
     background-image: url(./MULTIMEDIA/IMAGENES/hojas.png);
     margin-top: 100px;
     margin-bottom: 40px;
 }
-/*FIN PREMIOS*/
+.img-carousel {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 576px) {
+    .texto-bodega { display: none; }
+    .encabezado-bodega {
+        font-size: 1.2rem;
+    }
+    .img-carousel {
+        width: 170%;
+    height: 170%;
+}
+}
+
+/*FIN BODEGA*/
 /*INICIO CONTACTOS*/
 .body-contacto {
     background-image: url(./MULTIMEDIA/IMAGENES/grape.png);
