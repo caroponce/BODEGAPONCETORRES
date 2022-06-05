@@ -87,6 +87,9 @@ header {
         padding-bottom: 90px;
     }  
 }
+@media screen and (max-width: 768px) {
+    
+}
 
 /* FIN INDEX*/
 /* PRODCUTOS*/
@@ -108,19 +111,20 @@ header {
     grid-template-rows: repeat(6, 6fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    
 }
-.pergamino-grid { grid-area: 1 / 1 / 2 / 2; }
-.perga-text-grid { grid-area: 1 / 2 / 2 / 4; }
-.malbec-text-grid { grid-area: 2 / 1 / 3 / 3; }
-.malbec-grid { grid-area: 2 / 3 / 3 / 4; }
+.pergamino-grid { grid-area: 1 / 1 / 2 / 2;}
+.perga-text-grid { grid-area: 1 / 2 / 2 / 4;}
+.malbec-text-grid { grid-area: 2 / 1 / 3 / 3; border: 1px solid #808476;}
+.malbec-grid { grid-area: 2 / 3 / 3 / 4; border: 1px solid #808476;}
 .cabernet-grid { grid-area: 3 / 1 / 4 / 2; }
 .cab-text-grid { grid-area: 3 / 2 / 4 / 4; }
-.blend-text-grid { grid-area: 4 / 1 / 5 / 3; }
-.blend-grid { grid-area: 4 / 3 / 5 / 4; }
+.blend-text-grid { grid-area: 4 / 1 / 5 / 3; border: 1px solid #808476; }
+.blend-grid { grid-area: 4 / 3 / 5 / 4; border: 1px solid #808476; }
 .astral-grid { grid-area: 5 / 1 / 6 / 2; }
 .astral-text-grid { grid-area: 5 / 2 / 6 / 4; }
-.ser-text-grid { grid-area: 6 / 1 / 7 / 3; }
-.ser-grid { grid-area: 6 / 3 / 7 / 4; }
+.ser-text-grid { grid-area: 6 / 1 / 7 / 3; border: 1px solid #808476; }
+.ser-grid { grid-area: 6 / 3 / 7 / 4; border: 1px solid #808476; }
 
 .titulo-vino {
     font-size: 2.3rem;
@@ -237,8 +241,8 @@ header {
     
 }
 .titulo-vino {
-    font-size: 2rem;
-    padding-top: 10px;
+    font-size: 1.5rem;
+    padding-top: 0px;
 }
 .texto {
     font-size: 1.2rem;
@@ -312,6 +316,7 @@ header {
     }
     .titulo-historia {
         font-size: 2rem;
+        padding-bottom: 0;
     }
    
 }
