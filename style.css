@@ -327,7 +327,9 @@ header {
     }
    
 }
-
+@media screen and (max-width: 768px) {
+    
+}
 /*FIN HISTORIA*/
 /*INICIO BODEGA*/
 .encabezado-bodega {
