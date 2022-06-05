@@ -176,6 +176,9 @@ header {
    display: flex;
    justify-content: center;
 }
+.nana {
+    background-image: url(./MULTIMEDIA/IMAGENES/hojas-verdes.jpg);
+    }
 
 /* FIN PRODCUTOS*/
 /*INICIO HISTORIA*/
