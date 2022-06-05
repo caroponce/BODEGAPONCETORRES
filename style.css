@@ -172,7 +172,10 @@ header {
     justify-content: center;
     font-size: 40px;
 }
-
+.carta-premios {
+   display: flex;
+   justify-content: center;
+}
 
 /* FIN PRODCUTOS*/
 /*INICIO HISTORIA*/
