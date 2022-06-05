@@ -289,28 +289,6 @@ header {
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .familia-mobile {
-        display: block;
-        padding-bottom: 19px;
-        border: 1px solid black;       
-                }
-
-        .imagen-familia {
-            display: none;
-        }
-    .cuerpo-historia {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr 0.2fr 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        justify-items: center;
-        
-    }    
-.titulo-historia { grid-area: 1 / 1 / 2 / 2; }
-.familia-mobile { grid-area: 2 / 1 / 3 / 2; }
-.historia-familia { grid-area: 3 / 1 / 4 / 2; }
-    
     
  
     .historia-familia {
@@ -328,8 +306,31 @@ header {
    
 }
 @media screen and (max-width: 768px) {
+.familia-mobile {
+    display: block;    
+    border: 1px solid black;       
+            }
+
+    .imagen-familia {
+        display: none;       
+    }
+.cuerpo-historia {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
     
+}    
+.titulo-historia { grid-area: 1 / 1 / 2 / 2; }
+.familia-mobile { grid-area: 2 / 1 / 3 / 2; }
+.historia-familia { grid-area: 3 / 1 / 4 / 2; }
+.historia-familia { 
+    padding-top: 30px;
 }
+}
+
 /*FIN HISTORIA*/
 /*INICIO BODEGA*/
 .encabezado-bodega {
