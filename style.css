@@ -70,12 +70,24 @@ header {
 
 .frase-bodega {
     color: rgb(18, 19, 18);
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
     width: 50%;
     margin-bottom: 200px;
 }
 
+@media screen and (max-width: 600px) {
+    .video-vinedo { display: none;
+    }
+    .imagen-mobile { display: block;
+    width: 100%;
+    }
+    .frase-bodega {
+        font-size: 1.1rem;
+        padding-bottom: 90px;
+    }
+  
+}
 
 /* FIN INDEX*/
 /* PRODCUTOS*/
