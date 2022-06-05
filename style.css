@@ -369,7 +369,11 @@ header {
     height: 170%;
 }
 }
-
+@media screen and (max-width: 768px) {
+    .encabezado-bodega {
+        font-size: 1.5rem;
+    }
+}
 /*FIN BODEGA*/
 /*INICIO CONTACTOS*/
 .body-contacto {
