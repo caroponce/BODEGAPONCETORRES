@@ -57,7 +57,9 @@ header {
 
 }
 
-
+.imagen-mobile {
+    display: none;
+}
 .foto-frase {
     display: flex;
     justify-content: space-evenly;
