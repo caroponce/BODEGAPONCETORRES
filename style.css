@@ -38,7 +38,6 @@ header {
     margin-left: 110px;
 }
 
-
 /* FIN HEADER HEADER*/
 
 /*INICIO MAIN*/
@@ -76,7 +75,8 @@ header {
     margin-bottom: 200px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
+    
     .video-vinedo { display: none;
     }
     .imagen-mobile { display: block;
@@ -85,8 +85,7 @@ header {
     .frase-bodega {
         font-size: 1.1rem;
         padding-bottom: 90px;
-    }
-  
+    }  
 }
 
 /* FIN INDEX*/
