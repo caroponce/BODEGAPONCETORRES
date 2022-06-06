@@ -129,7 +129,7 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .detalle-descripcion {
@@ -253,9 +253,9 @@ header {
 .texto-des {
     display: flex;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 }
 /* FIN PRODCUTOS*/
 /*INICIO HISTORIA*/
@@ -321,6 +321,7 @@ header {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     justify-items: center;
+    margin-bottom: -130px;
     
 }    
 .titulo-historia { grid-area: 1 / 1 / 2 / 2; }
