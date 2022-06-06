@@ -254,7 +254,11 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;    
+   
 }
+.titulo-vino {
+    font-size: 2rem;
+ }
 
 }
 /* FIN PRODCUTOS*/
