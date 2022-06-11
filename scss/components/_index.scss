@@ -1,2 +1,23 @@
 @import "../base/variables";
 
+.video-vinedo {
+    height: 100%;
+    width: 100%;    
+}
+.imagen-mobile {
+    display: none;
+}
+.foto-frase {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../MULTIMEDIA/IMAGENES/montanas2.png);
+    background-repeat: initial;
+}
+.frase-bodega {
+    color: $color-letra;
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 200px;
+}

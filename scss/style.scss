@@ -1,9 +1,14 @@
+@import "components/bodymain";
+@import "components/header";
+@import "components/index";
+@import "components/productos";
+@import "components/historia";
 @import "components/bodega";
 @import "components/contacto";
 @import "components/footer";
-@import "components/header";
-@import "components/historia";
-@import "components/index";
-@import "components/productos";
 @import "base/variables";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
 

@@ -1,1 +1,36 @@
 @import "../base/variables";
+
+.body-contacto {
+    background-image: url(../MULTIMEDIA/IMAGENES/grape.png);
+}
+.cuerpo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.datos-contactos {
+    margin-bottom: 130px;
+    text-align: center;
+    background-color: #f6f6f6;
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+    
+}
+.contactate {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.visitanos {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 40px;
+    
+}

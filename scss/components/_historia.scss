@@ -1,1 +1,30 @@
 @import "../base/variables";
+
+.titulo-historia {
+    color: $color-letra;
+    text-decoration-line: underline;
+    font-size: $medida-letra-ppal+30px;
+    margin-left: 25px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.historia-familia {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.imagen-familia {
+    margin-bottom: 55px;
+}
+
+.cuerpo-historia {
+    display: flex;
+    justify-content: space-evenly
+}
+.familia-mobile {
+    display: none;
+}

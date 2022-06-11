@@ -1,1 +1,21 @@
 @import "../base/variables";
+
+
+header {
+    width: 100%;
+    top: 0;   
+    z-index: 1;    
+}
+.nav-style {
+    background-color: $color-nav;    
+}
+.link {
+    font-size: $medida-letra-ppal;
+    color: $color-principal;
+    margin: 0 50px 0 50px;
+}
+.foto-logo {
+    height: 65px;
+    width: 110px;
+    margin-left: 110px;
+}

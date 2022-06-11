@@ -1,1 +1,28 @@
 @import "../base/variables";
+
+footer {
+	background-color: $color-principal;
+	a {
+		img {
+			height: 70px;
+			right: 70px;
+		}
+	}
+	p {
+		font-size: 0.8rem;
+		text-align: center;
+	}
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-redes {
+	transition: all 1.4s;
+	&:hover {
+		transform: scale(1.5);
+	}
+}
