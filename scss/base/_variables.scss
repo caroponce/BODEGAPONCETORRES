@@ -4,3 +4,14 @@ $color-principal: #f6f6f6;
 $color-secundario: #808476;
 $tipografia-general: 'Red Hat Text', sans-serif;
 $medida-letra-ppal: 20px;
+
+@mixin chico {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
+@mixin medio {
+    @media (min-width: 577px) and (max-width: 768px) {
+        @content;
+    }
+}

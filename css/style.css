@@ -225,6 +225,16 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 576px) {
+  .titulo-historia {
+    color: yellow;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .titulo-historia {
+    color: red;
+  }
+}
 
 .historia-familia {
   width: 60%;

@@ -9,6 +9,14 @@
     padding-top: 100px;
     display: flex;
     justify-content: center;
+    @include chico {
+    color: yellow;
+    }
+    @include medio {
+        color: red;
+    }
+    
+    
 }
 .historia-familia {
     width: 60%;
@@ -28,8 +36,4 @@
 .familia-mobile {
     display: none;
 }
-
-
-
-
 
