@@ -20,6 +20,14 @@ body {
   margin-top: 0;
 }
 
+.texto-izq, .texto-der {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
 header {
   width: 100%;
   top: 0;
@@ -40,6 +48,14 @@ header {
   height: 65px;
   width: 110px;
   margin-left: 110px;
+}
+
+.texto-izq, .texto-der {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .video-vinedo {
@@ -82,6 +98,14 @@ header {
     font-size: 1.1rem;
     padding-bottom: 90px;
   }
+}
+
+.texto-izq, .texto-der {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .nuestros-vinos {
@@ -241,20 +265,10 @@ header {
 
 .texto-der {
   background-color: #f6f6f6;
-  color: rgb(66, 61, 61);
-  padding-left: 30px;
-  padding-right: 10px;
-  text-align: justify;
-  font-size: 20px;
 }
 
 .texto-izq {
   background-color: #808476;
-  color: rgb(66, 61, 61);
-  padding-left: 30px;
-  padding-right: 10px;
-  text-align: justify;
-  font-size: 20px;
 }
 
 .encabezado-premios {
@@ -319,6 +333,14 @@ header {
     grid-area: 12/1/13/2;
   }
 }
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
 .titulo-historia {
   color: rgb(66, 61, 61);
   text-decoration-line: underline;
@@ -405,6 +427,14 @@ header {
     padding-top: 30px;
   }
 }
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
 .encabezado-bodega {
   color: rgb(66, 61, 61);
   text-decoration-line: underline;
@@ -453,6 +483,14 @@ header {
     width: 170%;
     height: 170%;
   }
+}
+
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .body-contacto {
@@ -504,6 +542,14 @@ header {
   }
 }
 
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
 footer {
   background-color: #f6f6f6;
 }
@@ -527,6 +573,14 @@ footer p {
 }
 .logo-redes:hover {
   transform: scale(1.5);
+}
+
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
