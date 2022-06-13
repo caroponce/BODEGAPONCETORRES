@@ -16,6 +16,10 @@
     width: 40%;
     height: 40%;
     border: 1px solid black;
+    @include chico {
+        width: 60%;
+        height: 60%; 
+    }
     
 }
 .contactate {
@@ -33,4 +37,9 @@
     margin-top: -100px;
     margin-bottom: 40px;
     
+}
+.texto-contacto {
+    @include medio {
+        font-size: 0.9rem;  
+    }
 }

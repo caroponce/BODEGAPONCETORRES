@@ -2,10 +2,19 @@
 
 .video-vinedo {
     height: 100%;
-    width: 100%;    
+    width: 100%;
+    @include chico {
+        display: none;
+    }
+ 
 }
 .imagen-mobile {
     display: none;
+    @include chico {
+        display: block;
+        width: 100%;
+    }
+    
 }
 .foto-frase {
     display: flex;
@@ -20,4 +29,9 @@
     text-align: center;
     width: 50%;
     margin-bottom: 200px;
+    @include medio {
+        font-size: 1.1rem;
+        padding-bottom: 90px;
+    }
+    
 }

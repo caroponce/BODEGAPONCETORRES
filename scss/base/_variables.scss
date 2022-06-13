@@ -11,7 +11,7 @@ $medida-letra-ppal: 20px;
     }
 }
 @mixin medio {
-    @media (min-width: 577px) and (max-width: 768px) {
+    @media (max-width: 768px) {
         @content;
     }
 }

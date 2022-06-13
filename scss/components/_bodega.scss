@@ -8,6 +8,12 @@
     justify-content: center;
     margin-bottom: 34px;
     margin-top: 110px;
+    @include chico {
+        font-size: 1.2rem;
+    }
+    @include medio {
+        font-size: 1.5rem;
+    }
 }
 
 .texto-bodega {
@@ -16,6 +22,9 @@
     display: flex;
     justify-content: center;
     background-color: $color-principal;
+    @include chico {
+        display: none;
+    }
 }
 
 .main-bodega {
@@ -26,4 +35,8 @@
 .img-carousel {
     width: 100%;
     height: 100%;
+    @include chico {
+        width: 170%;
+        height: 170%;
+    }
 }

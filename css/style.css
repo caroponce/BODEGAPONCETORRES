@@ -46,9 +46,20 @@ header {
   height: 100%;
   width: 100%;
 }
+@media (max-width: 576px) {
+  .video-vinedo {
+    display: none;
+  }
+}
 
 .imagen-mobile {
   display: none;
+}
+@media (max-width: 576px) {
+  .imagen-mobile {
+    display: block;
+    width: 100%;
+  }
 }
 
 .foto-frase {
@@ -65,6 +76,12 @@ header {
   text-align: center;
   width: 50%;
   margin-bottom: 200px;
+}
+@media (max-width: 768px) {
+  .frase-bodega {
+    font-size: 1.1rem;
+    padding-bottom: 90px;
+  }
 }
 
 .nuestros-vinos {
@@ -146,6 +163,17 @@ header {
   margin-bottom: 15px;
   padding-top: 10px;
 }
+@media (max-width: 576px) {
+  .titulo-vino {
+    font-size: 1.5rem;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .titulo-vino {
+    font-size: 2rem;
+  }
+}
 
 .detalle-descripcion {
   display: flex;
@@ -159,9 +187,27 @@ header {
   margin: 44px;
   font-size: 30px;
 }
+@media (max-width: 576px) {
+  .texto-des {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .texto-des {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
 
 .texto {
   font-size: 20px;
+}
+@media (max-width: 576px) {
+  .texto {
+    font-size: 1rem;
+    text-align: start;
+  }
 }
 
 .vino-izq {
@@ -171,6 +217,12 @@ header {
   background-image: url(../MULTIMEDIA/IMAGENES/lineasnegras3.png);
   background-repeat: no-repeat;
 }
+@media (max-width: 576px) {
+  .vino-izq {
+    width: 100%;
+    height: 500px;
+  }
+}
 
 .vino-derecha {
   background-color: #808476;
@@ -178,6 +230,13 @@ header {
   justify-content: center;
   background-image: url(../MULTIMEDIA/IMAGENES/lineasnegras1.png);
   background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+  .vino-derecha {
+    width: 100%;
+    height: 500px;
+    margin-top: 0;
+  }
 }
 
 .texto-der {
@@ -215,6 +274,51 @@ header {
   background-image: url(../MULTIMEDIA/IMAGENES/hojas-verdes.jpg);
 }
 
+@media screen and (max-width: 768px) {
+  .grid-conteiner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.6fr 1fr 0.6fr 1fr 0.6fr 1fr 0.6fr 1fr 0.6fr 1fr 0.6fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .pergamino-grid {
+    grid-area: 1/1/2/2;
+  }
+  .perga-text-grid {
+    grid-area: 2/1/3/2;
+  }
+  .malbec-grid {
+    grid-area: 3/1/4/2;
+  }
+  .malbec-text-grid {
+    grid-area: 4/1/5/2;
+  }
+  .cabernet-grid {
+    grid-area: 5/1/6/2;
+  }
+  .cab-text-grid {
+    grid-area: 6/1/7/2;
+  }
+  .blend-grid {
+    grid-area: 7/1/8/2;
+  }
+  .blend-text-grid {
+    grid-area: 8/1/9/2;
+  }
+  .astral-grid {
+    grid-area: 9/1/10/2;
+  }
+  .astral-text-grid {
+    grid-area: 10/1/11/2;
+  }
+  .ser-grid {
+    grid-area: 11/1/12/2;
+  }
+  .ser-text-grid {
+    grid-area: 12/1/13/2;
+  }
+}
 .titulo-historia {
   color: rgb(66, 61, 61);
   text-decoration-line: underline;
@@ -227,12 +331,8 @@ header {
 }
 @media (max-width: 576px) {
   .titulo-historia {
-    color: yellow;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  .titulo-historia {
-    color: red;
+    font-size: 2rem;
+    padding-bottom: 0;
   }
 }
 
@@ -243,9 +343,29 @@ header {
   align-items: center;
   font-size: 17px;
 }
+@media (max-width: 576px) {
+  .historia-familia {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding-top: 42px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .historia-familia {
+    display: block;
+    border: 1px solid black;
+  }
+}
 
 .imagen-familia {
   margin-bottom: 55px;
+}
+@media (max-width: 768px) {
+  .imagen-familia {
+    display: none;
+  }
 }
 
 .cuerpo-historia {
@@ -256,7 +376,35 @@ header {
 .familia-mobile {
   display: none;
 }
+@media (max-width: 768px) {
+  .familia-mobile {
+    display: block;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .cuerpo-historia {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    margin-bottom: -130px;
+  }
+  .titulo-historia {
+    grid-area: 1/1/2/2;
+  }
+  .familia-mobile {
+    grid-area: 2/1/3/2;
+  }
+  .historia-familia {
+    grid-area: 3/1/4/2;
+  }
+  .historia-familia {
+    padding-top: 30px;
+  }
+}
 .encabezado-bodega {
   color: rgb(66, 61, 61);
   text-decoration-line: underline;
@@ -266,6 +414,16 @@ header {
   margin-bottom: 34px;
   margin-top: 110px;
 }
+@media (max-width: 576px) {
+  .encabezado-bodega {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .encabezado-bodega {
+    font-size: 1.5rem;
+  }
+}
 
 .texto-bodega {
   font-size: 20px;
@@ -273,6 +431,11 @@ header {
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
+}
+@media (max-width: 576px) {
+  .texto-bodega {
+    display: none;
+  }
 }
 
 .main-bodega {
@@ -284,6 +447,12 @@ header {
 .img-carousel {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 576px) {
+  .img-carousel {
+    width: 170%;
+    height: 170%;
+  }
 }
 
 .body-contacto {
@@ -305,6 +474,12 @@ header {
   height: 40%;
   border: 1px solid black;
 }
+@media (max-width: 576px) {
+  .datos-contactos {
+    width: 60%;
+    height: 60%;
+  }
+}
 
 .contactate {
   font-size: 2rem;
@@ -321,6 +496,12 @@ header {
   justify-content: center;
   margin-top: -100px;
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .texto-contacto {
+    font-size: 0.9rem;
+  }
 }
 
 footer {
