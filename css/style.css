@@ -82,7 +82,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url(../MULTIMEDIA/IMAGENES/montanas2.png);
+  background-image: url(https://i.ibb.co/mGYjxbc/montanas2.webp);
   background-repeat: initial;
 }
 
@@ -238,7 +238,7 @@ header {
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  background-image: url(../MULTIMEDIA/IMAGENES/lineasnegras3.png);
+  background-image: url(https://i.ibb.co/Fzg4rDN/lineasnegras3.png);
   background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
@@ -252,7 +252,7 @@ header {
   background-color: #808476;
   display: flex;
   justify-content: center;
-  background-image: url(../MULTIMEDIA/IMAGENES/lineasnegras1.png);
+  background-image: url(https://i.ibb.co/LrT88zN/lineasnegras1.png);
   background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
@@ -285,7 +285,7 @@ header {
 }
 
 .premios-productos {
-  background-image: url(../MULTIMEDIA/IMAGENES/hojas-verdes.jpg);
+  background-image: url(https://i.ibb.co/WzVmwmz/hojas-verdes.webp);
 }
 
 @media screen and (max-width: 768px) {
@@ -494,7 +494,7 @@ header {
 }
 
 .body-contacto {
-  background-image: url(../MULTIMEDIA/IMAGENES/grape.png);
+  background-image: url(https://i.ibb.co/BwC9C7G/grape.webp);
 }
 
 .cuerpo-contacto {
