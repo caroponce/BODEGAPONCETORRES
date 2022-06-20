@@ -587,4 +587,36 @@ footer p {
   font-size: 20px;
 }
 
+.body-agredecimiento {
+  background-color: #f6f6f6;
+}
+
+.agradecimiento h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+.agradecimiento h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  text-align: center;
+}
+
+.main-agradecimientos {
+  padding: 150px 0;
+}
+
+.texto-der, .texto-izq {
+  color: rgb(66, 61, 61);
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
