@@ -505,6 +505,11 @@ h1 {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
 
 form {
   display: flex;
@@ -518,6 +523,18 @@ form {
   border-radius: 8px;
   border: 1px solid black;
 }
+@media (max-width: 768px) {
+  form {
+    width: 60%;
+  }
+}
+@media (max-width: 576px) {
+  form {
+    padding: 0;
+    width: 80%;
+    height: 70%;
+  }
+}
 
 input, textarea {
   resize: none;
@@ -527,6 +544,11 @@ input, textarea {
   width: 80%;
   margin: 20px;
   border-bottom: 1px solid black;
+}
+@media (max-width: 768px) {
+  input, textarea {
+    font-size: 0.9rem;
+  }
 }
 
 button {
@@ -540,10 +562,16 @@ button {
   border-radius: 2px;
   margin: 20px 0;
 }
+@media (max-width: 768px) {
+  button {
+    width: 100px;
+  }
+}
 
 .mapa {
   display: flex;
   justify-content: center;
+  margin-bottom: 36px;
 }
 
 .texto-der, .texto-izq {
@@ -598,6 +626,11 @@ footer p {
   font-size: 50px;
   text-align: center;
 }
+@media (max-width: 576px) {
+  .agradecimiento h1 {
+    font-size: 1rem;
+  }
+}
 
 .agradecimiento h2 {
   display: flex;
@@ -605,6 +638,11 @@ footer p {
   align-items: center;
   font-size: 38px;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .agradecimiento h2 {
+    font-size: 1rem;
+  }
 }
 
 .main-agradecimientos {

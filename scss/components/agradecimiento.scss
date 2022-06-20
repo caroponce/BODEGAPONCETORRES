@@ -1,8 +1,11 @@
 @import "../base/variables";
 @import "../base/extends";
 
+
+
 .body-agredecimiento {
     background-color: $color-principal;
+   
 }
 
 .agradecimiento h1 {
@@ -11,6 +14,9 @@
     align-items: center;
     font-size: 50px;
     text-align: center;
+    @include chico {
+        font-size: 1rem;
+    }
 }
 .agradecimiento h2 {
     display: flex;
@@ -18,6 +24,10 @@
     align-items: center;
     font-size: 38px;
     text-align: center;
+    @include chico {
+        font-size: 1rem;
+
+    }
 }
 .main-agradecimientos {
     padding: 150px 0;
