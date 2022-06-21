@@ -238,7 +238,7 @@ header {
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  background-image: url(https://i.ibb.co/Fzg4rDN/lineasnegras3.png);
+  background-image: url(https://i.ibb.co/xLmdFnK/lineasnegras3.webp);
   background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
@@ -252,7 +252,7 @@ header {
   background-color: #808476;
   display: flex;
   justify-content: center;
-  background-image: url(https://i.ibb.co/LrT88zN/lineasnegras1.png);
+  background-image: url(https://i.ibb.co/7GLyXgn/lineasnegras1.webp);
   background-repeat: no-repeat;
 }
 @media (max-width: 576px) {
@@ -469,7 +469,7 @@ header {
 }
 
 .main-bodega {
-  background-image: url(../MULTIMEDIA/IMAGENES/hojas.png);
+  background-image: url(https://i.ibb.co/pnBdtvn/hojas.webp);
   margin-top: 100px;
   margin-bottom: 40px;
 }
