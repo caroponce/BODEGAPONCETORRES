@@ -1,7 +1,11 @@
 @import "../base/variables";
 @import "../base/extends";
 
-.encabezado-bodega {
+
+.main-bodega {
+    background-color: $color-principal;
+}
+.encabezado-vinoteca {
     color: rgb(66, 61, 61);
     text-decoration-line: underline;
     font-size: $medida-letra-ppal+23px;
@@ -17,27 +21,43 @@
     }
 }
 
-.texto-bodega {
-    font-size: $medida-letra-ppal;
-    color: rgb(39, 37, 37);
+.grid-vinotecas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 6rem);
+    grid-column-gap: 17px;
+    grid-row-gap: 17px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .vinoteca-1 { grid-area: 1 / 1 / 3 / 2; border: 1px solid black; }
+    .vinoteca-2 { grid-area: 1 / 2 / 3 / 3; border: 1px solid black;}
+    .vinoteca-3 { grid-area: 1 / 3 / 3 / 4; border: 1px solid black;}
+    .vinoteca-4 { grid-area: 3 / 1 / 5 / 2; border: 1px solid black;}
+    .vinoteca-5 { grid-area: 3 / 2 / 5 / 3; border: 1px solid black;}
+    .vinoteca-6 { grid-area: 3 / 3 / 5 / 4; border: 1px solid black;}
+    .vinoteca-7 { grid-area: 5 / 1 / 7 / 2; border: 1px solid black;}
+    .vinoteca-8 { grid-area: 5 / 2 / 7 / 3; border: 1px solid black;}
+    .vinoteca-9 { grid-area: 5 / 3 / 7 / 4; border: 1px solid black;}
+
+.vinotecas {
+    background-image: url(https://i.ibb.co/z6dvF53/copas.png);
+    
+    align-items: center;
+    background-color: #808476;  
+    transition: all 1.5s;
+    font-size: 1.5rem;
+    color: white;
     display: flex;
     justify-content: center;
-    background-color: $color-principal;
-    @include chico {
-        display: none;
-    }
+    align-items: center;
+    text-align: center;
+}
+.vinotecas:hover {
+    transform: scale(1.09);
+    background-color: rgba(0, 0, 0, 0.747);   
+    font-size: 1.5rem;
+    color: white;
 }
 
-.main-bodega {
-    background-image: url(https://i.ibb.co/pnBdtvn/hojas.webp);
-    margin-top: 100px;
-    margin-bottom: 40px;
-}
-.img-carousel {
-    width: 100%;
-    height: 100%;
-    @include chico {
-        width: 170%;
-        height: 170%;
-    }
-}
