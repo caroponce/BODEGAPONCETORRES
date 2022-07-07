@@ -525,14 +525,61 @@ header {
   align-items: center;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .vinotecas {
+    font-size: 1.2rem;
+  }
+}
 
 .vinotecas:hover {
   transform: scale(1.09);
   background-color: rgba(0, 0, 0, 0.747);
-  font-size: 1.5rem;
+  font-size: 1.5;
   color: white;
 }
+@media (max-width: 768px) {
+  .vinotecas:hover {
+    transform: none;
+    font-size: 1.2rem;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .grid-vinotecas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+  }
+  .vinoteca-1 {
+    grid-area: 1/1/2/2;
+  }
+  .vinoteca-2 {
+    grid-area: 1/2/2/3;
+  }
+  .vinoteca-3 {
+    grid-area: 2/1/3/2;
+  }
+  .vinoteca-4 {
+    grid-area: 2/2/3/3;
+  }
+  .vinoteca-5 {
+    grid-area: 3/1/4/2;
+  }
+  .vinoteca-6 {
+    grid-area: 3/2/4/3;
+  }
+  .vinoteca-7 {
+    grid-area: 4/1/5/2;
+  }
+  .vinoteca-8 {
+    grid-area: 4/2/5/3;
+  }
+  .vinoteca-9 {
+    grid-area: 5/1/6/2;
+  }
+}
 .texto-der, .texto-izq {
   color: rgb(66, 61, 61);
   padding-left: 30px;
