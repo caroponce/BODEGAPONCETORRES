@@ -45,6 +45,8 @@ header {
 }
 
 .foto-logo {
+  width: auto;
+  height: auto;
   margin-left: 110px;
 }
 
@@ -73,6 +75,7 @@ header {
   .imagen-mobile {
     display: block;
     width: 100%;
+    height: auto;
   }
 }
 
